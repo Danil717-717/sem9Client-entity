@@ -16,7 +16,7 @@ import java.util.List;
 @NoArgsConstructor
 @Component
 @ToString
-public class Executor {//implements InitializingBean {
+public class Executor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
